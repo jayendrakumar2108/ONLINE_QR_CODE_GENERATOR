@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate QR Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="container">
+    <h2 class ="head">Generate QR Code</h2>
+    <form action="/generate" method="POST">
+        <h1 class="link"><label for="link">Enter the link:</label><br></h1>
+        <input type="text" id="link" name="link"><br><br>
+        <input type="submit" value="Generate QR Code">
+    </div>
+    </form>
+    </center>
+    <script src="app.js"></script>
+</body>
+</html>
